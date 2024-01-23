@@ -25,9 +25,13 @@
 		337BA2402B5F97B0001C078E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA23B2B5F97B0001C078E /* Poppins-Regular.ttf */; };
 		337BA2412B5F97B0001C078E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA23C2B5F97B0001C078E /* Poppins-SemiBold.ttf */; };
 		337BA2432B5F9CC7001C078E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2422B5F9CC7001C078E /* String.swift */; };
-		337BA2492B5FA2CB001C078E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2482B5FA2CB001C078E /* RegistrationView.swift */; };
+		337BA2492B5FA2CB001C078E /* AccountCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2482B5FA2CB001C078E /* AccountCreationView.swift */; };
 		337BA24C2B5FA327001C078E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA24B2B5FA327001C078E /* Texts.swift */; };
 		337BA24E2B5FA49B001C078E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA24D2B5FA49B001C078E /* Buttons.swift */; };
+		337C0D542B5FB3800014D524 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C0D532B5FB3800014D524 /* TextFields.swift */; };
+		337C0D562B5FB63D0014D524 /* OutlinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C0D552B5FB63D0014D524 /* OutlinedView.swift */; };
+		337C578B2B5FBFE200F66927 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C578A2B5FBFE200F66927 /* RegistrationView.swift */; };
+		337C578D2B5FBFE900F66927 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C578C2B5FBFE900F66927 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +74,13 @@
 		337BA23B2B5F97B0001C078E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		337BA23C2B5F97B0001C078E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		337BA2422B5F9CC7001C078E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		337BA2482B5FA2CB001C078E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		337BA2482B5FA2CB001C078E /* AccountCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationView.swift; sourceTree = "<group>"; };
 		337BA24B2B5FA327001C078E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		337BA24D2B5FA49B001C078E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		337C0D532B5FB3800014D524 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		337C0D552B5FB63D0014D524 /* OutlinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedView.swift; sourceTree = "<group>"; };
+		337C578A2B5FBFE200F66927 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		337C578C2B5FBFE900F66927 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +213,7 @@
 		337BA2442B5FA2A7001C078E /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				337BA2482B5FA2CB001C078E /* AccountCreationView.swift */,
 				337BA2472B5FA2BC001C078E /* Login */,
 				337BA2452B5FA2AE001C078E /* Registration */,
 			);
@@ -214,7 +223,7 @@
 		337BA2452B5FA2AE001C078E /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				337BA2482B5FA2CB001C078E /* RegistrationView.swift */,
+				337C578A2B5FBFE200F66927 /* RegistrationView.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 		337BA2472B5FA2BC001C078E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				337C578C2B5FBFE900F66927 /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -231,6 +241,8 @@
 			children = (
 				337BA24B2B5FA327001C078E /* Texts.swift */,
 				337BA24D2B5FA49B001C078E /* Buttons.swift */,
+				337C0D532B5FB3800014D524 /* TextFields.swift */,
+				337C0D552B5FB63D0014D524 /* OutlinedView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -373,14 +385,18 @@
 			files = (
 				337BA2022B5F911D001C078E /* ContentView.swift in Sources */,
 				337BA2302B5F96A7001C078E /* Dimension.swift in Sources */,
+				337C0D542B5FB3800014D524 /* TextFields.swift in Sources */,
+				337C578B2B5FBFE200F66927 /* RegistrationView.swift in Sources */,
 				337BA2342B5F9740001C078E /* Font.swift in Sources */,
+				337C0D562B5FB63D0014D524 /* OutlinedView.swift in Sources */,
 				337BA24C2B5FA327001C078E /* Texts.swift in Sources */,
 				337BA2002B5F911D001C078E /* SwiftCommerceApp.swift in Sources */,
+				337C578D2B5FBFE900F66927 /* LoginView.swift in Sources */,
 				337BA24E2B5FA49B001C078E /* Buttons.swift in Sources */,
 				337BA2432B5F9CC7001C078E /* String.swift in Sources */,
 				337BA2322B5F96E8001C078E /* Color.swift in Sources */,
 				337BA22B2B5F9582001C078E /* OnboardingScreenView.swift in Sources */,
-				337BA2492B5FA2CB001C078E /* RegistrationView.swift in Sources */,
+				337BA2492B5FA2CB001C078E /* AccountCreationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
