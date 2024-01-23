@@ -14,6 +14,20 @@
 		337BA2112B5F911E001C078E /* SwiftCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2102B5F911E001C078E /* SwiftCommerceTests.swift */; };
 		337BA21B2B5F911E001C078E /* SwiftCommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA21A2B5F911E001C078E /* SwiftCommerceUITests.swift */; };
 		337BA21D2B5F911E001C078E /* SwiftCommerceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA21C2B5F911E001C078E /* SwiftCommerceUITestsLaunchTests.swift */; };
+		337BA22B2B5F9582001C078E /* OnboardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA22A2B5F9582001C078E /* OnboardingScreenView.swift */; };
+		337BA22D2B5F95B0001C078E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337BA22C2B5F95B0001C078E /* LaunchScreen.storyboard */; };
+		337BA2302B5F96A7001C078E /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA22F2B5F96A7001C078E /* Dimension.swift */; };
+		337BA2322B5F96E8001C078E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2312B5F96E8001C078E /* Color.swift */; };
+		337BA2342B5F9740001C078E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2332B5F9740001C078E /* Font.swift */; };
+		337BA23D2B5F97B0001C078E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA2382B5F97B0001C078E /* Poppins-Bold.ttf */; };
+		337BA23E2B5F97B0001C078E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA2392B5F97B0001C078E /* Poppins-Medium.ttf */; };
+		337BA23F2B5F97B0001C078E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA23A2B5F97B0001C078E /* Poppins-Light.ttf */; };
+		337BA2402B5F97B0001C078E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA23B2B5F97B0001C078E /* Poppins-Regular.ttf */; };
+		337BA2412B5F97B0001C078E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337BA23C2B5F97B0001C078E /* Poppins-SemiBold.ttf */; };
+		337BA2432B5F9CC7001C078E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2422B5F9CC7001C078E /* String.swift */; };
+		337BA2492B5FA2CB001C078E /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA2482B5FA2CB001C078E /* RegistrationView.swift */; };
+		337BA24C2B5FA327001C078E /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA24B2B5FA327001C078E /* Texts.swift */; };
+		337BA24E2B5FA49B001C078E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BA24D2B5FA49B001C078E /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,21 @@
 		337BA2162B5F911E001C078E /* SwiftCommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337BA21A2B5F911E001C078E /* SwiftCommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCommerceUITests.swift; sourceTree = "<group>"; };
 		337BA21C2B5F911E001C078E /* SwiftCommerceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCommerceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		337BA22A2B5F9582001C078E /* OnboardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenView.swift; sourceTree = "<group>"; };
+		337BA22C2B5F95B0001C078E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		337BA22F2B5F96A7001C078E /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		337BA2312B5F96E8001C078E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		337BA2332B5F9740001C078E /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		337BA2352B5F978D001C078E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		337BA2382B5F97B0001C078E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		337BA2392B5F97B0001C078E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		337BA23A2B5F97B0001C078E /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		337BA23B2B5F97B0001C078E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		337BA23C2B5F97B0001C078E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		337BA2422B5F9CC7001C078E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		337BA2482B5FA2CB001C078E /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		337BA24B2B5FA327001C078E /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		337BA24D2B5FA49B001C078E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +125,12 @@
 			children = (
 				337BA1FF2B5F911D001C078E /* SwiftCommerceApp.swift */,
 				337BA2012B5F911D001C078E /* ContentView.swift */,
-				337BA2032B5F911E001C078E /* Assets.xcassets */,
+				337BA2352B5F978D001C078E /* Info.plist */,
+				337BA2442B5FA2A7001C078E /* Auth */,
+				337BA24A2B5FA2D2001C078E /* Components */,
+				337BA22E2B5F969C001C078E /* Extensions */,
+				337BA2292B5F956F001C078E /* Onboarding */,
+				337BA2362B5F9795001C078E /* Resources */,
 				337BA2052B5F911E001C078E /* Preview Content */,
 			);
 			path = SwiftCommerce;
@@ -125,6 +159,80 @@
 				337BA21C2B5F911E001C078E /* SwiftCommerceUITestsLaunchTests.swift */,
 			);
 			path = SwiftCommerceUITests;
+			sourceTree = "<group>";
+		};
+		337BA2292B5F956F001C078E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				337BA22C2B5F95B0001C078E /* LaunchScreen.storyboard */,
+				337BA22A2B5F9582001C078E /* OnboardingScreenView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		337BA22E2B5F969C001C078E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				337BA22F2B5F96A7001C078E /* Dimension.swift */,
+				337BA2332B5F9740001C078E /* Font.swift */,
+				337BA2312B5F96E8001C078E /* Color.swift */,
+				337BA2422B5F9CC7001C078E /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		337BA2362B5F9795001C078E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				337BA2032B5F911E001C078E /* Assets.xcassets */,
+				337BA2372B5F979F001C078E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		337BA2372B5F979F001C078E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				337BA2382B5F97B0001C078E /* Poppins-Bold.ttf */,
+				337BA23A2B5F97B0001C078E /* Poppins-Light.ttf */,
+				337BA2392B5F97B0001C078E /* Poppins-Medium.ttf */,
+				337BA23B2B5F97B0001C078E /* Poppins-Regular.ttf */,
+				337BA23C2B5F97B0001C078E /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		337BA2442B5FA2A7001C078E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				337BA2472B5FA2BC001C078E /* Login */,
+				337BA2452B5FA2AE001C078E /* Registration */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		337BA2452B5FA2AE001C078E /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				337BA2482B5FA2CB001C078E /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		337BA2472B5FA2BC001C078E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		337BA24A2B5FA2D2001C078E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				337BA24B2B5FA327001C078E /* Texts.swift */,
+				337BA24D2B5FA49B001C078E /* Buttons.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +339,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337BA22D2B5F95B0001C078E /* LaunchScreen.storyboard in Resources */,
+				337BA23F2B5F97B0001C078E /* Poppins-Light.ttf in Resources */,
+				337BA2402B5F97B0001C078E /* Poppins-Regular.ttf in Resources */,
 				337BA2072B5F911E001C078E /* Preview Assets.xcassets in Resources */,
 				337BA2042B5F911E001C078E /* Assets.xcassets in Resources */,
+				337BA2412B5F97B0001C078E /* Poppins-SemiBold.ttf in Resources */,
+				337BA23D2B5F97B0001C078E /* Poppins-Bold.ttf in Resources */,
+				337BA23E2B5F97B0001C078E /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +372,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				337BA2022B5F911D001C078E /* ContentView.swift in Sources */,
+				337BA2302B5F96A7001C078E /* Dimension.swift in Sources */,
+				337BA2342B5F9740001C078E /* Font.swift in Sources */,
+				337BA24C2B5FA327001C078E /* Texts.swift in Sources */,
 				337BA2002B5F911D001C078E /* SwiftCommerceApp.swift in Sources */,
+				337BA24E2B5FA49B001C078E /* Buttons.swift in Sources */,
+				337BA2432B5F9CC7001C078E /* String.swift in Sources */,
+				337BA2322B5F96E8001C078E /* Color.swift in Sources */,
+				337BA22B2B5F9582001C078E /* OnboardingScreenView.swift in Sources */,
+				337BA2492B5FA2CB001C078E /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +547,14 @@
 				DEVELOPMENT_TEAM = WU69N4C677;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftCommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +579,14 @@
 				DEVELOPMENT_TEAM = WU69N4C677;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftCommerce/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
